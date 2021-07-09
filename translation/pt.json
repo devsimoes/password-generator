@@ -1,0 +1,13 @@
+{
+  "app_name": "Gerador de Senhas Aleatórias",
+  "app_description": "Use o Gerador de Senhas Aleatórias para criar senhas para site, e-mail e mídias socias, como: Facebook, Instragram e Tik Tok.",
+  "generate_password": "Gerar Nova Senha",
+  "uppercase": "Letras maiúsculas",
+  "lowercase": "Letras minúsculas",
+  "numbers": "Números",
+  "symbols": "Símbolos",
+  "similar_characters": "Remover caracteres parecidos",
+  "repeated_characters": "Remover caracteres repetidos",
+  "password_length": "Tamanho da senha:",
+  "extended_password": "Versão estendida da senha:"
+}
