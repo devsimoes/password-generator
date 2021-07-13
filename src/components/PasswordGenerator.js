@@ -59,7 +59,7 @@ export default function PasswordGenerator({updatePhoneticPassword}) {
         <Checkbox name="similar_characters" checked={settings.similar_characters} onChangeCheckbox={onChangeCheckbox} label={translation.similar_characters} />
         <Checkbox name="repeated_characters" checked={settings.repeated_characters} onChangeCheckbox={onChangeCheckbox} label={translation.repeated_characters} />
         <Input className="mt-4" name="password_length" value={settings.password_length} onChangeInput={onChangeInput} label={translation.password_length} />
-        <div className="mt-4 text-center text-white text-lg bg-gray-800 py-4 rounded">{password}</div>
+        <div className="mt-4 text-center text-gray-400 text-lg bg-gray-800 py-4 rounded">{password}</div>
         <button className="block my-8 bg-primary-700 shadow-lg text-white font-medium py-2 px-5 rounded mx-auto focus:outline-none transition duration-200 transform hover:scale-105 select-none" onClick={onClick}>{translation.generate_password}</button>
       </form>
     </div>
